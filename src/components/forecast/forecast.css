@@ -1,0 +1,23 @@
+.forecast_title {
+    color: white;
+    text-transform: uppercase;
+    font: medium;
+    margin-top: 25px;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+.forecast_info {
+    display: flex;
+    color: white;
+}
+
+.temperature {
+    text-align: center;
+    p {
+        font-weight: lighter;
+        font-size: medium;
+     }
+}

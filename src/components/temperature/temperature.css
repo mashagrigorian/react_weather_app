@@ -1,0 +1,36 @@
+.detailed_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    padding-top: 1.5rem; 
+    color: white;
+}
+
+.detailed_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff; 
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.temp_info {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5rem;
+}
+
+.temp_icons {
+    display: flex; 
+    font-weight: 300; 
+    font-size: 0.87rem; 
+    align-items: center; 
+    justify-content: center;
+     > span {
+        font-weight: 500; 
+        margin-left: 0.25rem;
+    }
+}

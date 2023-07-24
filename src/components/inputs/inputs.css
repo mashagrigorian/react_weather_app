@@ -1,0 +1,37 @@
+.searchbar_container {
+    display: flex;
+}
+
+.searchbar_marks {
+    display: flex;
+    flex-direction: row;
+    width: 75%; 
+    align-items: center;
+    gap: 0.5rem; 
+}
+
+.searchbar {
+    font-size: 1.05rem; 
+    padding: 0.5rem;
+    width: 100%; 
+    text-transform: capitalize; 
+}
+
+.searchbar_info {
+    display: flex; 
+    flex-direction: row; 
+    width: 25%; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.searchbar_line {
+    font-size: 1.25rem; 
+    color: #fff;
+    margin: 0.25rem;
+}
+
+.searchbar_icons {
+    color: #fff; 
+    cursor: pointer;
+}

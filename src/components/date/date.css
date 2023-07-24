@@ -1,0 +1,24 @@
+.date_container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.date_title {
+    color: white;
+    font-weight: 200;
+    font-size: 1.25rem;
+}
+
+.country_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.country_title {
+    color: white;
+    font-size: 2rem;
+}
